@@ -1,0 +1,27 @@
+<story path="com/sheetal/imdb/stories/story/imdb_special_thanks.story" title="">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="In order to">find Jim Morris role in Star War I</inOrderTo>
+  <asA keyword="As a">automation engineer</asA>
+  <iWantTo keyword="I want to">check IMDb site</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="Special thanks crew in movie Star War I">
+<examples keyword="Examples:">
+<step>Given user is on url &lt;url&gt;</step>
+<step>When user searched for &lt;searchString&gt; on page</step>
+<step>And user click on &lt;link1&gt; on the search page</step>
+<step>And user select see full cast link on the product page</step>
+<step>Then user sees &lt;message1&gt; and &lt;message2&gt; on the page</step>
+<parameters>
+<names><name>url</name><name>searchString</name><name>link1</name><name>message1</name><name>message2</name></names>
+<values><value>http://www.imdb.com</value><value>Star Wars: Episode I</value><value>Star Wars: Episode I - The Phantom Menace</value><value>Jim Morris</value><value>special thanks</value></values>
+</parameters>
+
+<example keyword="Example:">{url=http://www.imdb.com, searchString=Star Wars: Episode I, link1=Star Wars: Episode I - The Phantom Menace, message1=Jim Morris, message2=special thanks}</example>
+<step outcome="successful">Given user is on url <parameter>http://www.imdb.com</parameter></step>
+<step outcome="successful">When user searched for <parameter>Star Wars: Episode I</parameter> on page</step>
+<step outcome="successful">And user click on <parameter>Star Wars: Episode I - The Phantom Menace</parameter> on the search page</step>
+<step outcome="successful">And user select see full cast link on the product page</step>
+<step outcome="successful">Then user sees <parameter>Jim Morris</parameter> and <parameter>special thanks</parameter> on the page</step>
+</examples>
+</scenario>
+</story>

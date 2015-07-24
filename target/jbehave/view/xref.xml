@@ -1,0 +1,33 @@
+<xref>
+  <whenMade>1437711909732</whenMade>
+  <createdBy>JBehave</createdBy>
+  <metaFilter>-ignore</metaFilter>
+  <meta/>
+  <stories>
+    <story>
+      <description></description>
+      <narrative>In order to find Jim Morris role in Star War I
+As a automation engineer
+I want to check IMDb site
+</narrative>
+      <name>imdb_special_thanks.story</name>
+      <path>com/sheetal/imdb/stories/story/imdb_special_thanks.story</path>
+      <html>com.sheetal.imdb.stories.story.imdb_special_thanks.html</html>
+      <meta></meta>
+      <scenarios>Scenario:Special thanks crew in movie Star War I
+Given user is on url &lt;url&gt;
+When user searched for &lt;searchString&gt; on page
+And user click on &lt;link1&gt; on the search page
+And user select see full cast link on the product page
+Then user sees &lt;message1&gt; and &lt;message2&gt; on the page
+
+
+</scenarios>
+      <passed>true</passed>
+      <pending>false</pending>
+      <started>1437711888103</started>
+      <duration>19213</duration>
+    </story>
+  </stories>
+  <stepMatches/>
+</xref>

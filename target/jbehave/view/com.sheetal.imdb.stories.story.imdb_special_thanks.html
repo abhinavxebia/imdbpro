@@ -1,0 +1,69 @@
+<html>
+<head>
+<title>com.sheetal.imdb.stories.story.imdb_special_thanks</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+<div class="story">
+<h1></h1>
+<div class="path">com/sheetal/imdb/stories/story/imdb_special_thanks.story</div>
+<div class="narrative"><h2>Narrative:</h2>
+<div class="element inOrderTo"><span class="keyword inOrderTo">In order to</span> find Jim Morris role in Star War I</div>
+<div class="element asA"><span class="keyword asA">As a</span> automation engineer</div>
+<div class="element iWantTo"><span class="keyword iWantTo">I want to</span> check IMDb site</div>
+</div>
+<div class="scenario">
+<h2>Scenario: Special thanks crew in movie Star War I</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given user is on url &lt;url&gt;</div>
+<div class="step">When user searched for &lt;searchString&gt; on page</div>
+<div class="step">And user click on &lt;link1&gt; on the search page</div>
+<div class="step">And user select see full cast link on the product page</div>
+<div class="step">Then user sees &lt;message1&gt; and &lt;message2&gt; on the page</div>
+<table>
+<thead>
+<tr>
+<th>url</th><th>searchString</th><th>link1</th><th>message1</th><th>message2</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>http://www.imdb.com</td><td>Star Wars: Episode I</td><td>Star Wars: Episode I - The Phantom Menace</td><td>Jim Morris</td><td>special thanks</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {url=http://www.imdb.com, searchString=Star Wars: Episode I, link1=Star Wars: Episode I - The Phantom Menace, message1=Jim Morris, message2=special thanks}</h3>
+<div class="step successful">Given user is on url <span class="step parameter">http://www.imdb.com</span></div>
+<div class="step successful">When user searched for <span class="step parameter">Star Wars: Episode I</span> on page</div>
+<div class="step successful">And user click on <span class="step parameter">Star Wars: Episode I - The Phantom Menace</span> on the search page</div>
+<div class="step successful">And user select see full cast link on the product page</div>
+<div class="step successful">Then user sees <span class="step parameter">Jim Morris</span> and <span class="step parameter">special thanks</span> on the page</div>
+</div>
+</div>
+</div>
+
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>

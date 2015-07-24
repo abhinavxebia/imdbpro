@@ -1,0 +1,45 @@
+<acceptance-test-run title="Special thanks crew in movie Star War I" name="Special thanks crew in movie Star War I" steps="5" successful="5" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="18994" timestamp="2015-07-24T09:54:48.166+05:30">
+  <user-story id="imdb_special_thanks" name="Imdb special thanks" path="com/sheetal/imdb/stories/story/imdb_special_thanks.story"/>
+  <tags>
+    <tag name="Imdb special thanks" type="story"/>
+    <tag name="Story/Imdb special thanks" type="story"/>
+  </tags>
+  <examples>
+    <datasets>
+      <dataset startRow="0" rowCount="0"/>
+    </datasets>
+    <headers>
+      <header>url</header>
+      <header>searchString</header>
+      <header>link1</header>
+      <header>message1</header>
+      <header>message2</header>
+    </headers>
+    <rows>
+      <row result="SUCCESS">
+        <value>http://www.imdb.com</value>
+        <value>Star Wars: Episode I</value>
+        <value>Star Wars: Episode I - The Phantom Menace</value>
+        <value>Jim Morris</value>
+        <value>special thanks</value>
+      </row>
+    </rows>
+  </examples>
+  <test-group name="[1] {url=http://www.imdb.com, searchString=Star Wars: Episode I, link1=Star Wars: Episode I - The Phantom Menace, message1=Jim Morris, message2=special thanks}" result="SUCCESS">
+    <test-step result="SUCCESS" duration="5113">
+      <description>Given user is on url {http://www.imdb.com}</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="8033">
+      <description>When user searched for {Star Wars: Episode I} on page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="931">
+      <description>And user click on {Star Wars: Episode I - The Phantom Menace} on the search page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="1323">
+      <description>And user select see full cast link on the product page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="3480">
+      <description>Then user sees {Jim Morris} and {special thanks} on the page</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

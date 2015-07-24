@@ -1,0 +1,22 @@
+{"xref": {
+  "whenMade": 1437711909732,
+  "createdBy": "JBehave",
+  "metaFilter": "-ignore",
+  "meta": [],
+  "stories": [
+    {
+      "description": "",
+      "narrative": "In order to find Jim Morris role in Star War I\u000aAs a automation engineer\u000aI want to check IMDb site\u000a",
+      "name": "imdb_special_thanks.story",
+      "path": "com/sheetal/imdb/stories/story/imdb_special_thanks.story",
+      "html": "com.sheetal.imdb.stories.story.imdb_special_thanks.html",
+      "meta": "",
+      "scenarios": "Scenario:Special thanks crew in movie Star War I\u000aGiven user is on url <url>\u000aWhen user searched for <searchString> on page\u000aAnd user click on <link1> on the search page\u000aAnd user select see full cast link on the product page\u000aThen user sees <message1> and <message2> on the page\u000a\u000a\u000a",
+      "passed": true,
+      "pending": false,
+      "started": 1437711888103,
+      "duration": 19213
+    }
+  ],
+  "stepMatches": []
+}}
