@@ -23,7 +23,7 @@ public class IMDbSteps {
 	public void openHomePage(@Named("url") String url) {
 		 driver = new FirefoxDriver();
 
-		 //To Run with Chrome driver
+//      To Run with Chrome driver
 //		System.setProperty("webdriver.chrome.driver",
 //				"C:\\Users\\sheetalsingh\\Downloads\\chromedriver_win32\\chromedriver.exe");
 //		driver = new ChromeDriver();
